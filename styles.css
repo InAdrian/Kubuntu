@@ -45,3 +45,18 @@ section {
 #historia, #instalacion, #sitios-interes, #porque-instalar, #comentarios {
     padding-top: 100px; /* Aumenta el valor si la barra cubre más contenido */
 }
+
+.btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color del fondo */
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
+
+/* Opcional: aumentar espacio en la parte superior de las secciones */
+#historia, #instalacion, #sitios-interes, #porque-instalar, #comentarios {
+    padding-top: 100px; /* Aumenta el valor si la barra cubre más contenido */
+}
